@@ -66,7 +66,6 @@ class CKEditor extends Component {
 		return (
 			<div className="form-group">
 				<textarea
-					// refactor ref
 					// eslint-disable-next-line react/no-string-refs
 					ref="editor"
 					className="form-control"

@@ -1,6 +1,6 @@
 {
 	"name": "sm-react-common-ckeditor",
-	"version": "1.0.4",
+	"version": "1.0.6",
 	"description": "Common frontend components for SM",
 	"main": "dist/index.js",
 	"repository": {
@@ -51,6 +51,7 @@
 		"jest": "^23.3.0",
 		"jest-css-modules": "^1.1.0",
 		"mini-css-extract-plugin": "^0.4.1",
+		"mutationobserver-shim": "^0.3.2",
 		"prop-types": "^15.6.2",
 		"react": "^16.3.1",
 		"react-dom": "^16.3.1",
@@ -66,6 +67,7 @@
 	},
 	"scripts": {
 		"start": "webpack-dev-server --hot --inline --mode development",
+		"prepublishOnly": "npm run release",
 		"release": "npm run build:dev && npm run build:prod",
 		"patch": "npm version patch",
 		"publish": "npm publish",
