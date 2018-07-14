@@ -1,0 +1,15 @@
+.ck-editor__editable {
+	min-height: 300px;
+}
+
+.modal-backdrop {
+	z-index: 998;
+}
+
+.ck-rounded-corners.ck.ck-balloon-panel {
+	z-index: 9999;
+}
+
+.ck li {
+	list-style-type: inherit;
+}
