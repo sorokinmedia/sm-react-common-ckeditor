@@ -54,14 +54,12 @@ class CKEditor extends Component {
 			this.editor.setData(this.props.value);
 		}
 	}
-
 	// componentWillUnmount() {
 	// 	this.editor.destroy()
 	// 		.catch(error => {
 	// 			console.log(error);
 	// 		});
 	// }
-
 	render() {
 		return (
 			<div className="form-group">
