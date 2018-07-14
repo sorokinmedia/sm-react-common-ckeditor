@@ -1,11 +1,11 @@
 {
-	"name": "sm-react-common-alert",
+	"name": "sm-react-common-ckeditor",
 	"version": "1.0.0",
 	"description": "Common frontend components for SM",
 	"main": "dist/index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/magarampage/sm-react-common-alert.git"
+		"url": "git+https://github.com/magarampage/sm-react-common-ckeditor.git"
 	},
 	"keywords": [
 		"react",
@@ -14,9 +14,9 @@
 	"author": "magarampage",
 	"license": "BSD-3-Clause",
 	"bugs": {
-		"url": "https://github.com/magarampage/sm-react-common-alert/issues"
+		"url": "https://github.com/magarampage/sm-react-common-ckeditor/issues"
 	},
-	"homepage": "https://github.com/magarampage/sm-react-common-alert#readme",
+	"homepage": "https://github.com/magarampage/sm-react-common-ckeditor#readme",
 	"peerDependencies": {
 		"@ckeditor/ckeditor5-build-classic": "^10.0.0",
 		"babel-polyfill": "^6.26.0",
