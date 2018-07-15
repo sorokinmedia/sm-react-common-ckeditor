@@ -25,7 +25,7 @@
 		"react-dom": "^16.0.0"
 	},
 	"devDependencies": {
-		"@ckeditor/ckeditor5-build-classic": "^10.0.0",
+		"@ckeditor/ckeditor5-build-classic": "^10.1.0",
 		"babel-core": "^6.26.0",
 		"babel-eslint": "^8.2.5",
 		"babel-jest": "^23.2.0",
@@ -61,6 +61,7 @@
 		"rollup-plugin-node-resolve": "^3.3.0",
 		"rollup-plugin-postcss": "^1.6.2",
 		"rollup-plugin-replace": "^2.0.0",
+		"rollup-plugin-uglify": "^4.0.0",
 		"webpack": "^4.15.1",
 		"webpack-cli": "^3.0.8",
 		"webpack-dev-server": "^3.1.4"
