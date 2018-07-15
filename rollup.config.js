@@ -3,7 +3,7 @@ import commonjs from 'rollup-plugin-commonjs';
 import resolve from 'rollup-plugin-node-resolve';
 import replace from 'rollup-plugin-replace';
 import postcss from 'rollup-plugin-postcss'
-import uglify from 'rollup-plugin-uglify'
+import { uglify } from 'rollup-plugin-uglify'
 
 const NODE_ENV = process.env.NODE_ENV || 'development';
 const outputFile = NODE_ENV === 'production' ? './dist/index.js' : './lib/index.js';
@@ -35,6 +35,6 @@ export default {
 			runtimeHelpers: true
 		}),
 		commonjs(),
-		uglify(),
-	],
+		uglify()
+	]
 };
