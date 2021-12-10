@@ -24,6 +24,17 @@
 		"react": "^16.0.0",
 		"react-dom": "^16.0.0"
 	},
+	"resolutions": {
+		"ansi-regex": "^6.0.1",
+		"braces": "^2.3.1",
+		"glob-parent": "^5.1.2",
+		"is-svg": "^4.2.2",
+		"js-yaml": "^3.13.1",
+		"merge": "^2.1.1",
+		"node-notifier": "^8.0.1",
+		"yargs-parser": "^13.1.2",
+		"color-string": "^1.5.5"
+	},
 	"devDependencies": {
 		"@ckeditor/ckeditor5-build-classic": "^10.1.0",
 		"babel-core": "^6.26.0",
@@ -34,7 +45,7 @@
 		"babel-plugin-transform-class-properties": "^6.24.1",
 		"babel-polyfill": "^6.26.0",
 		"babel-preset-env": "^1.6.1",
-		"babel-preset-react": "^6.24.1",
+		"babel-preset-react": "^6.23.0",
 		"babel-preset-stage-2": "^6.24.1",
 		"cross-env": "^5.2.0",
 		"css-loader": "^1.0.0",
